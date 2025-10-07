@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter1/exercicio1e2/exercicio1e2.dart';
+import 'package:flutter1/listaDeCompra/lista_de_compra.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,6 +10,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: Exercicio1e2(), debugShowCheckedModeBanner: false);
+    return MaterialApp(
+      home: ListaDeCompra(),
+      debugShowCheckedModeBanner: false,
+    );
   }
 }
