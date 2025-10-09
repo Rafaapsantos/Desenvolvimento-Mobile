@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter1/listaDeCompra/lista_de_compra.dart';
+import 'package:flutter1/semana4_armazenamento/lista_notas_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: ListaDeCompra(),
+      home: ListaNotasPage(),
       debugShowCheckedModeBanner: false,
     );
   }
