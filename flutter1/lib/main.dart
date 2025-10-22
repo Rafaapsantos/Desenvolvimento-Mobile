@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter1/semana4_armazenamento/lista_notas_page.dart';
+import 'package:flutter1/semana5_navegacao/exercicio.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,9 +10,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: ListaNotasPage(),
-      debugShowCheckedModeBanner: false,
-    );
+    return MaterialApp(home: Tela1(), debugShowCheckedModeBanner: false);
   }
 }
