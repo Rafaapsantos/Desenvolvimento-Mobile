@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter1/semana5_navegacao/exercicio.dart';
+import 'package:flutter1/semana6/lista_postagem_api.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,6 +10,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: Tela1(), debugShowCheckedModeBanner: false);
+    return MaterialApp(
+      home: PostsListScreen(),
+      debugShowCheckedModeBanner: false,
+    );
   }
 }
